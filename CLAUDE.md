@@ -12,13 +12,18 @@ Every run must follow this pattern — do not push directly to `main`:
    git checkout -b ai-digest/YYYY-MM-DD origin/main
    ```
 2. **Write the digest** to `ai-digest-YYYY-MM-DD.md` in the repo root.
-3. **Commit and push** the dated branch:
+3. **Update the index** in `README.md` by prepending a new row to the index table:
    ```
-   git add ai-digest-YYYY-MM-DD.md
+   | YYYY-MM-DD | [AI Digest — YYYY-MM-DD](ai-digest-YYYY-MM-DD.md) |
+   ```
+   The newest entry must always be at the top of the table (below the header row).
+4. **Commit and push** both files together:
+   ```
+   git add ai-digest-YYYY-MM-DD.md README.md
    git commit -m "Add AI news digest for YYYY-MM-DD"
    git push -u origin ai-digest/YYYY-MM-DD
    ```
-4. **Open a PR** from `ai-digest/YYYY-MM-DD` → `main` titled:
+5. **Open a PR** from `ai-digest/YYYY-MM-DD` → `main` titled:
    `AI Digest — YYYY-MM-DD`
 
 Use today's date (available in the session context) for all placeholders above.
