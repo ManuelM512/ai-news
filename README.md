@@ -6,6 +6,7 @@ Daily AI news digests compiled automatically by a scheduled Claude Code task. Ea
 
 | Date | Digest |
 |------|--------|
+| 2026-07-28 | [AI Digest — 2026-07-28](ai-digest-2026-07-28.md) |
 | 2026-07-27 | [AI Digest — 2026-07-27](ai-digest-2026-07-27.md) |
 | 2026-07-26 | [AI Digest — 2026-07-26](ai-digest-2026-07-26.md) |
 | 2026-07-25 | [AI Digest — 2026-07-25](ai-digest-2026-07-25.md) |
